@@ -1,0 +1,20 @@
+Console.WriteLine (Hello, World!);
+-Above instruction will tell the C# language to print "Hello World" on screen
+
+-Variable names usually use an uppercase letter for each word, except the first one which is always lowercase.
+
+-Stage
+-Commit
+-Push
+
+var greeting = "Hello Sam!";
+-Line will add "Hello Sam!" as a string variable
+
+var verb = "play";
+Console.WriteLine (verb);
+-this means that we created a variable named verb that stores the vaule "play".
+
+var verb = "play";
+Console.WriteLine ("We are" + verb + "ing");
+Output=We are playing
+-The + sign adds strings together into a single string.
