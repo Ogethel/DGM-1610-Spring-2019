@@ -2,3 +2,4 @@ Orem mostly cloudy 42 Degrees
 Orem partly cloudy 39 Degrees
 Orem cloudy 44 Degrees 1/10/19 
 Orem fog 39 Degrees 1/11/19
+Orem mostly cloudy 29 Degrees 1/12/19
