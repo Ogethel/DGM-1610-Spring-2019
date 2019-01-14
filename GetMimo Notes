@@ -1,0 +1,20 @@
+# C# Notes for GetMimo for future reference.
+
+for (var i = 1; i <=3; i++) {
+    console.WriteLine (i)
+}
+
+#This will print the numbers 1, 2, 3 in that order
+
+for (var i = 1; i <= 3; i++) {
+    console.WriteLine (i * i);
+}
+
+#This will print the numbers 1, 4, 9 in that order
+
+var scores = new int[] [ 92, 81, 60 ];
+for (var i =  0; i < 3; i++) {
+    console.WriteLine (scores[i]);
+}
+
+#more complecated variant, prints 92, 81, 60 in that order, but may do more...
