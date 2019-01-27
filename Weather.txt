@@ -16,3 +16,4 @@ Orem partly cloudy 22 Degrees 1/22/19
 Orem snow showers 30 Degrees 1/23/19
 Orem cloudy 37 Degrees 1/24/19
 Orem mostly cloudy 39 Degrees 1/25/19
+Orem sunny 38 Degrees 1/27/19
