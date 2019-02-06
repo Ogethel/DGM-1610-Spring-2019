@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal : MonoBehaviour {
+public class Mammal : MonoBehaviour
+{
 
 	public string Name;
-	public Color SkinColor;
 
+	public Color SkinColor;
+	
 	// Use this for initialization
-	void Start () 
-	{
-		
+	void Start () {
+		//Do work
 	}
 	
 	// Update is called once per frame
-	void Update () 
-	{
-	
+	void Update () {
+		//Do work
 	}
 }

@@ -6,7 +6,14 @@
     <e p="C:\Users\10718916\Documents\DGM 1610 Spring 2019\Lizard_Platformer" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="characterfront.cs" t="Include" />
+        <e p="scr.cs" t="Include" />
+        <e p="scri.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Animal.cs" t="Include" />
+          <e p="characterfront.cs" t="Include" />
+          <e p="fish.cs" t="Include" />
+          <e p="Mammal.cs" t="Include" />
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="Lizard_Platformer.sln" t="IncludeFlat" />

@@ -18,3 +18,29 @@ var verb = "play";
 Console.WriteLine ("We are" + verb + "ing");
 Output=We are playing
 -The + sign adds strings together into a single string.
+
+//Notes from 2/6/19
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Mammal : MonoBehaviour 
+{
+
+	public string Name;
+
+	public Color SkinColor;
+	
+	// Use this for initialization
+	void Start () {
+		//Do work
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		//Do work
+	}
+}
+
+//Above is C# code, it is just used as an example of parenting object instances to a child instance.  
