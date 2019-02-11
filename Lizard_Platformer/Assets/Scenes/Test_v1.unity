@@ -247,9 +247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d5ff7a5fd917ba438e23cadc0404cbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  SkinColor: {r: 0.20934217, g: 0.8867924, b: 0.04601282, a: 1}
-  FinColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &543805975
 GameObject:
   m_ObjectHideFlags: 0
@@ -5082,22 +5079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6755eea8b148e64f857fcbf213ce757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 570642066}
-        m_MethodName: Emit
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 100
-          m_FloatArgument: 100
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &852619532
 GameObject:
   m_ObjectHideFlags: 0
@@ -5378,7 +5359,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1075112055}
   - component: {fileID: 1075112054}
-  - component: {fileID: 1075112053}
   m_Layer: 0
   m_Name: Fish
   m_TagString: Untagged
@@ -5386,20 +5366,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1075112053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1075112052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d5ff7a5fd917ba438e23cadc0404cbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: 
-  SkinColor: {r: 0, g: 0, b: 0, a: 0}
-  FinColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1075112054
 SpriteRenderer:
   m_ObjectHideFlags: 0
