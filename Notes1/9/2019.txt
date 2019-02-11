@@ -44,3 +44,10 @@ public class Mammal : MonoBehaviour
 }
 
 //Above is C# code, it is just used as an example of parenting object instances to a child instance.  
+
+//Notes for 2/11/19
+Working with Ints Floats and Strings
+
+File scripts are hard coded instances in unity
+
+home work to write code that changes Color and write game variables.
