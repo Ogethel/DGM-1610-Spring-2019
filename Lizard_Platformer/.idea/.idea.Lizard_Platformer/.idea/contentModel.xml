@@ -11,7 +11,9 @@
         <e p="Scripts" t="Include">
           <e p="Animal.cs" t="Include" />
           <e p="characterfront.cs" t="Include" />
+          <e p="ColorData.cs" t="Include" />
           <e p="fish.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
         </e>
       </e>

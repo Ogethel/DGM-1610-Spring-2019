@@ -254,8 +254,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Health: 0
-  Speed: 0
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
   CanMove: 0
   SkinColor: {r: 0.021359911, g: 0.18075648, b: 0.9056604, a: 1}
   FinColor: {r: 0.5377358, g: 0.24603951, b: 0.24603951, a: 1}
@@ -5183,7 +5183,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 797427289}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &852619532
@@ -5893,6 +5904,7 @@ GameObject:
   - component: {fileID: 1774062869}
   - component: {fileID: 1774062868}
   - component: {fileID: 1774062873}
+  - component: {fileID: 1774062874}
   m_Layer: 0
   m_Name: Animal 1
   m_TagString: Untagged
@@ -5960,8 +5972,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Health: 100
-  Speed: 19.5
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
   CanMove: 1
   SkinColor: {r: 0.06443202, g: 0.6226415, b: 0.06167675, a: 1}
 --- !u!212 &1774062871
@@ -6039,8 +6051,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Health: 0
-  Speed: 0
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
   CanMove: 0
   SkinColor: {r: 0, g: 0, b: 0, a: 0}
   FurCount: 10000
@@ -6063,6 +6075,24 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   SkinColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1774062874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774062867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d5ff7a5fd917ba438e23cadc0404cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Health: {fileID: 11400000, guid: e62da3eafc0646b4d9ecb7ac854b105f, type: 2}
+  Speed: {fileID: 11400000, guid: 9f912d8a05dfaf049854857caa910095, type: 2}
+  CanMove: 0
+  SkinColor: {r: 0, g: 0, b: 0, a: 0}
+  FinColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2140464724
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,8 +5,8 @@ using UnityEngine;
 public class Animal : MonoBehaviour {
 
 	public string Name;
-	public int Health;
-	public float Speed;
+	public FloatData Health;
+	public FloatData Speed;
 	public bool CanMove;
 		
 	public Color SkinColor;

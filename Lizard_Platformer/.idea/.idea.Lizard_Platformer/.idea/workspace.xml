@@ -12,39 +12,39 @@
     <session id="-1971741914">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="502" />
+          <entry key="cs" value="591" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="502" />
+          <entry key="C#" value="591" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="2" />
+          <entry key="cs" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="2" />
+          <entry key="C#" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mammal.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -77,13 +77,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
-                <marker date="1549907148671" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549907148671" expanded="true" signature="116:353" ph="{...}" />
-                <marker date="1549907148671" expanded="true" signature="279:288" ph="{...}" />
-                <marker date="1549907148671" expanded="true" signature="343:351" ph="{...}" />
+                <marker date="1550079431308" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550079431308" expanded="true" signature="116:363" ph="{...}" />
+                <marker date="1550079431308" expanded="true" signature="289:298" ph="{...}" />
+                <marker date="1550079431308" expanded="true" signature="353:361" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ColorData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <marker date="1550080758682" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550080758682" expanded="true" signature="139:166" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding>
+                <marker date="1550078995041" expanded="true" signature="6:78" ph="..." />
+                <marker date="1550078995041" expanded="true" signature="138:164" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,7 +122,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mammal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/fish.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -104,8 +132,10 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/characterfront.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/fish.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Animal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mammal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Animal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColorData.cs" />
       </list>
     </option>
   </component>
@@ -127,13 +157,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,11 +214,12 @@
       <workItem from="1549476447877" duration="640000" />
       <workItem from="1549906591337" duration="153000" />
       <workItem from="1549906932587" duration="1189000" />
+      <workItem from="1550078594384" duration="2730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3830000" />
+    <option name="totallyTimeSpent" value="6560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -202,7 +233,7 @@
   <component name="ToolWindowManager">
     <frame x="261" y="192" width="1440" height="780" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26449275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26811594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -247,15 +278,15 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/characterfront.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mammal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
-            <marker date="1549907148671" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549907148671" expanded="true" signature="116:353" ph="{...}" />
-            <marker date="1549907148671" expanded="true" signature="279:288" ph="{...}" />
-            <marker date="1549907148671" expanded="true" signature="343:351" ph="{...}" />
+            <marker date="1549907936415" expanded="true" signature="6:104" ph="..." />
+            <marker date="1549907936415" expanded="true" signature="134:428" ph="{...}" />
+            <marker date="1549907936415" expanded="true" signature="333:355" ph="{...}" />
+            <marker date="1549907936415" expanded="true" signature="410:426" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -273,15 +304,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mammal.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
-            <marker date="1549907936415" expanded="true" signature="6:104" ph="..." />
-            <marker date="1549907936415" expanded="true" signature="134:428" ph="{...}" />
-            <marker date="1549907936415" expanded="true" signature="333:355" ph="{...}" />
-            <marker date="1549907936415" expanded="true" signature="410:426" ph="{...}" />
+            <marker date="1550078995041" expanded="true" signature="6:78" ph="..." />
+            <marker date="1550078995041" expanded="true" signature="138:164" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <marker date="1550079431308" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550079431308" expanded="true" signature="116:363" ph="{...}" />
+            <marker date="1550079431308" expanded="true" signature="289:298" ph="{...}" />
+            <marker date="1550079431308" expanded="true" signature="353:361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ColorData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1550080758682" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550080758682" expanded="true" signature="139:166" ph="{...}" />
           </folding>
         </state>
       </provider>
