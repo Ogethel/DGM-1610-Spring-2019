@@ -24,3 +24,4 @@ Orem Rainy 46 Degrees 2/3/19
 Orem couldy 35 Degrees 2/10/19
 Orem Mostly Cloudy 36 Degrees 2/12/19
 Orem mostly cloudy 38 Degrees 2/15/19
+Orem mostly cloudy 27 Degrees 2/16/19
