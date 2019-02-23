@@ -27,3 +27,4 @@ Orem mostly cloudy 38 Degrees 2/15/19
 Orem mostly cloudy 27 Degrees 2/16/19
 Orem mostly cloudy 29 Degrees 2/18/19
 Orem Cloudy 23 Degrees 2/19/19
+Orem partly cloudy 23 Degrees 2/22/19
