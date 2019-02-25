@@ -12,12 +12,14 @@
           <e p="Animal.cs" t="Include" />
           <e p="characterfront.cs" t="Include" />
           <e p="ColorData.cs" t="Include" />
+          <e p="Conditionals.cs" t="Include" />
           <e p="fish.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="Movement" t="Include">
             <e p="CharacterController2D.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
           </e>
           <e p="PowerUpBase.cs" t="Include" />
         </e>
