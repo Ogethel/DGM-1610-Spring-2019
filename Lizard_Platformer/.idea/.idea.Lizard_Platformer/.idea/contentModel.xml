@@ -21,6 +21,9 @@
             <e p="CharacterController2D.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>
+          <e p="Movement2" t="Include">
+            <e p="MoveCharacter.cs" t="Include" />
+          </e>
           <e p="PowerUpBase.cs" t="Include" />
         </e>
       </e>
