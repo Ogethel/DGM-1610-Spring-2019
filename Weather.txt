@@ -29,3 +29,4 @@ Orem mostly cloudy 29 Degrees 2/18/19
 Orem Cloudy 23 Degrees 2/19/19
 Orem partly cloudy 23 Degrees 2/22/19
 Orem partly cloudy 37 Degrees 2/24/19
+Orem rain 46 Degrees 3/1/19
