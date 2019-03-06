@@ -4,20 +4,21 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public class MoveCharacter : MonoBehaviour
-{
+{  
+    public UnityEvent OnGrounded, OffGrounded;
     public MoveBase CharacterMover;
     
-    public UnityEvent OnGrounded, OffGrounded;
-    private CharacterController Controller;
+    private CharacterController controller;
+    private Vector3 position;
 
     void Start()
     {
-        Controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
     }
 
     void Update()
     {
-        if (Controller.isGrounded)
+        if (controller.isGrounded)
         {
             OnGrounded.Invoke();
         }
@@ -27,12 +28,8 @@ public class MoveCharacter : MonoBehaviour
         }
 
         CharacterMover.Move(controller);
-        
 
 
-        
-        position.x = Input.GetAxis("Horizontal")*Speed*Time.deltaTime;
 
-        
     }
 }
