@@ -16,6 +16,6 @@ public class UpdateBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        BarImage.fillAmount = FillNumber.Value
+ //       BarImage.fillAmount = FillNumber.Value;
     }
 }
