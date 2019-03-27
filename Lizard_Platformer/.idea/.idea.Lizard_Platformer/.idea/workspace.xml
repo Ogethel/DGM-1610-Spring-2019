@@ -12,9 +12,10 @@
     <session id="-1971741914">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -29,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="174" />
+          <entry key="cs" value="234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="174" />
+          <entry key="C#" value="234" />
         </counts>
       </usages-collector>
     </session>
@@ -75,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBarScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -110,11 +111,27 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
-                <marker date="1553532901914" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553532901914" expanded="true" signature="136:263" ph="{...}" />
-                <marker date="1553532901914" expanded="true" signature="220:261" ph="{...}" />
+                <marker date="1553705108864" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553705108864" expanded="true" signature="139:392" ph="{...}" />
+                <marker date="1553705108864" expanded="true" signature="223:264" ph="{...}" />
+                <marker date="1553705108864" expanded="true" signature="297:390" ph="{...}" />
+                <marker date="1553705108864" expanded="true" signature="344:385" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UpdateBar.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1552497638756" expanded="false" signature="6:121" ph="..." />
+                <marker date="1552497638756" expanded="true" signature="161:470" ph="{...}" />
+                <marker date="1552497638756" expanded="true" signature="294:348" ph="{...}" />
+                <marker date="1552497638756" expanded="true" signature="406:468" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -206,8 +223,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement 3/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FunctionsWithPrarams.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBarScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
       </list>
     </option>
   </component>
@@ -223,7 +240,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="594" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -236,10 +253,10 @@
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -309,11 +326,13 @@
       <workItem from="1552627012648" duration="2149000" />
       <workItem from="1553531103003" duration="1438000" />
       <workItem from="1553533591536" duration="147000" />
+      <workItem from="1553704609231" duration="1061000" />
+      <workItem from="1553706943102" duration="367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30579000" />
+    <option name="totallyTimeSpent" value="32007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,9 +344,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="594" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17833698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18490154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -472,7 +491,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement 3/NewBehaviourScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement2/MoveWAccess.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ReturnFunctions.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UpdateBar.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement 3/Capsule.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
@@ -501,6 +519,19 @@
             <marker date="1553532590586" expanded="true" signature="301:322" ph="{...}" />
             <marker date="1553532590586" expanded="true" signature="366:400" ph="{...}" />
             <marker date="1553532590586" expanded="true" signature="447:500" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBarScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1553533655923" expanded="true" signature="6:100" ph="..." />
+            <marker date="1553533655923" expanded="true" signature="146:505" ph="{...}" />
+            <marker date="1553533655923" expanded="true" signature="298:376" ph="{...}" />
+            <marker date="1553533655923" expanded="true" signature="434:503" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -550,24 +581,25 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
-            <marker date="1553532901914" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553532901914" expanded="true" signature="136:263" ph="{...}" />
-            <marker date="1553532901914" expanded="true" signature="220:261" ph="{...}" />
+            <marker date="1553705108864" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553705108864" expanded="true" signature="139:392" ph="{...}" />
+            <marker date="1553705108864" expanded="true" signature="223:264" ph="{...}" />
+            <marker date="1553705108864" expanded="true" signature="297:390" ph="{...}" />
+            <marker date="1553705108864" expanded="true" signature="344:385" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBarScript.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UpdateBar.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state>
           <folding>
-            <marker date="1553533655923" expanded="true" signature="6:100" ph="..." />
-            <marker date="1553533655923" expanded="true" signature="146:505" ph="{...}" />
-            <marker date="1553533655923" expanded="true" signature="298:376" ph="{...}" />
-            <marker date="1553533655923" expanded="true" signature="434:503" ph="{...}" />
+            <marker date="1552497638756" expanded="false" signature="6:121" ph="..." />
+            <marker date="1552497638756" expanded="true" signature="161:470" ph="{...}" />
+            <marker date="1552497638756" expanded="true" signature="294:348" ph="{...}" />
+            <marker date="1552497638756" expanded="true" signature="406:468" ph="{...}" />
           </folding>
         </state>
       </provider>
