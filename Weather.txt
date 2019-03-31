@@ -38,3 +38,4 @@ Spanish Fork Rainy 42 Degrees 3/22/19
 Mount Pleasant Cloudy 38 Degrees 3/23/19
 Mount Pleasant partly Cloudy 48 Degrees 3/24/19
 Orem Cloudy 37 Degrees 3/29/19
+Orem Clear with periodic clouds 44 Degrees 3/30/19
