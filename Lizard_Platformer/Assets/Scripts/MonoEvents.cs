@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class MonoEvents : MonoBehaviour
 {
-    public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent;
+    public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent, CollisionEnterEvent;
     
     void Start()
     {
@@ -20,6 +20,11 @@ public class MonoEvents : MonoBehaviour
     private void OnMouseDown()
     {
         MouseDownEvent.Invoke();
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        CollisionEnterEvent.Invoke();
     }
 
     // Update is called once per frame

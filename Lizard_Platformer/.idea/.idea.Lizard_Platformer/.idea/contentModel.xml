@@ -17,6 +17,7 @@
           <e p="Enemy.cs" t="Include" />
           <e p="fish.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="Forces.cs" t="Include" />
           <e p="FunctionsWithPrarams.cs" t="Include" />
           <e p="GameStateMachine.cs" t="Include" />
           <e p="HealthBarScript.cs" t="Include" />
