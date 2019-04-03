@@ -18,6 +18,7 @@
           <e p="fish.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FunctionsWithPrarams.cs" t="Include" />
+          <e p="GameStateMachine.cs" t="Include" />
           <e p="HealthBarScript.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
@@ -36,6 +37,8 @@
           </e>
           <e p="PowerUpBase.cs" t="Include" />
           <e p="ReturnFunctions.cs" t="Include" />
+          <e p="StateMachine.cs" t="Include" />
+          <e p="Switches.cs" t="Include" />
           <e p="UpdateBar.cs" t="Include" />
         </e>
       </e>
