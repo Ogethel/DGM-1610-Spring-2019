@@ -41,3 +41,4 @@ Orem Cloudy 37 Degrees 3/29/19
 Orem Clear with periodic clouds 44 Degrees 3/30/19
 Orem Cloudy 53 Degrees 4/1/19
 Orem Light Rain Showers 47 4/2/19
+Orem Mostly Cloudy 56 Degrees 4/4/19
