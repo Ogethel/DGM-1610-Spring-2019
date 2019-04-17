@@ -10,6 +10,9 @@
         <e p="scri.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Animal.cs" t="Include" />
+          <e p="AnimationScripts" t="Include">
+            <e p="RunAnims.cs" t="Include" />
+          </e>
           <e p="characterfront.cs" t="Include" />
           <e p="Collection.cs" t="Include" />
           <e p="ColorData.cs" t="Include" />
@@ -30,6 +33,7 @@
           </e>
           <e p="Movement 3" t="Include">
             <e p="Capsule.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
           </e>
           <e p="Movement2" t="Include">
             <e p="MoveBase.cs" t="Include" />
