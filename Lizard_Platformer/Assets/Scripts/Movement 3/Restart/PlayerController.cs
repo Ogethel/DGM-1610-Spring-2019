@@ -1,36 +1,42 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody rgb;
-
+    private Rigidbody rbdy;
+    public SpriteRenderer sprite;
+    
     private void start()
     {
-        rgb.GetComponent<Rigidbody>();
+        rbdy = GetComponent<Rigidbody>();
     }
-    // Update is called once per frame
+
     private void Update()
     {
-        PlayerMovement(rgb);
+        PlayerMovement(rbdy);
     }
 
-    private void PlayerMovement(Rigidbody rigidBody)
+    private void PlayerMovement(Rigidbody rigidbody)
     {
-        if (Input.GetKey("a"))
-        {
-            rigidBody.velocity = new Vector2(-10, rigidBody.velocity.y);
-        }
-        
         if (Input.GetKey("d"))
         {
-            rigidBody.velocity = new Vector2(10, rigidBody.velocity.y);
+            sprite.flipX = false;
+            rigidbody.velocity = new Vector2(5, rigidbody.velocity.y);
         }
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKey("a"))
         {
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, 10);
+            rigidbody.velocity = new Vector2(-5, rigidbody.velocity.y);
+        }
+
+        if (Input.GetKey("space"))
+        {
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, 10);
+        }
+        else
+        {
+            return;
         }
     }
 }

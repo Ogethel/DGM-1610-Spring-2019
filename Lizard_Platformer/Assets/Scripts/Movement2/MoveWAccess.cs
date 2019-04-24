@@ -5,8 +5,8 @@ using UnityEngine;
 public class MoveWAccess : MoveBase
 {
   public override void Move(CharacterController controller)
-    {
-        if (Input.GetAxis("Vertical") > 0 || Input.GetAxis("Vertical") < 0)
+  {
+      if (Input.GetAxis("Vertical") > 0 || Input.GetAxis("Vertical") < 0)
         {
             position.y = Input.GetAxis("Vertical") * Speed * Time.deltaTime;
         }

@@ -7,7 +7,7 @@ public class MoveSingleJump : MoveBase
 
     public override void Move(CharacterController controller)
     {
-        if (controller.isGrounded && Input.GetButton("Jump"))
+        if (controller.isGrounded && Input.GetKey("Jump"))
         {
             position.y = JumpForce;
         }
