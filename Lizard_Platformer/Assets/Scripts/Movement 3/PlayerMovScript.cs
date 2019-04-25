@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Boo.Lang;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovScript : MonoBehaviour
 {
@@ -13,7 +14,6 @@ public class PlayerMovScript : MonoBehaviour
     private bool charFaceRight = true;
 
     private bool isGrounded;
-    private Collider[] groundObj;
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
@@ -21,11 +21,14 @@ public class PlayerMovScript : MonoBehaviour
     private int numExtraJumps;
     public int numExtraJumpsValue;
 
+    public Text collectionText;
+    private int count = 0;
 
     void Start()
     {
         numExtraJumps = numExtraJumpsValue;
         rb = GetComponent<Rigidbody>();
+        SetCollectionText();
     }
 
     void FixedUpdate()
@@ -81,6 +84,19 @@ public class PlayerMovScript : MonoBehaviour
         Scaler.x *= -1;
         transform.localScale = Scaler;
      
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (!other.gameObject.CompareTag("PickUps")) return;
+            other.gameObject.SetActive(false);
+            count = count + 1;
+            SetCollectionText();
+    }
+
+    private void SetCollectionText()
+    {
+        collectionText.text = "Collections so far: " + count;
     }
 }
 

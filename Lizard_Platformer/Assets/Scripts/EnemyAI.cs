@@ -21,4 +21,8 @@ public class EnemyAI : MonoBehaviour
     {
         agent.destination = player.position;
     }
+    private void OnTriggerExit(Collider other)
+    {
+        agent.destination = agent.nextPosition;
+    }
 }

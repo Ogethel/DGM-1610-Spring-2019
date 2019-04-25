@@ -1,21 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.UIElements;
+using UnityEngine.UI;
 
 public class UpdateBar : MonoBehaviour
 {
-    public FloatData FillNumber;
-    private Image BarImage;
-    // Start is called before the first frame update
-    void Start()
+    //Health Value Information
+    public float startHealth = 1f;
+    public float currentHealthValue;
+    public float damageValue = .15f;
+
+    //Slider Information
+    public Slider healthBar;
+
+    private void Start()
     {
-        BarImage = GetComponent<Image>();
+        currentHealthValue = startHealth;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnTriggerEnter(Collider other)
     {
- //       BarImage.fillAmount = FillNumber.Value;
+        switch(other.name)
+        {
+            case "BadyDamage":
+                currentHealthValue -= damageValue;
+                healthBar.value = currentHealthValue;
+                break;
+        }
     }
 }

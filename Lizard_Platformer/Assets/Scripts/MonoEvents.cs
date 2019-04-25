@@ -5,16 +5,16 @@ using UnityEngine.Events;
 
 public class MonoEvents : MonoBehaviour
 {
-    public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent, CollisionEnterEvent;
-    
-    void Start()
+    public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent, CollisionEnterEvent, TriggerEvent;
+
+    private void Start()
     {
         StartEvent.Invoke();
     }
 
     private void OnEnable()
     {
-        print("Enable");
+        EnableEvent.Invoke();
     }
 
     private void OnMouseDown()
@@ -22,14 +22,18 @@ public class MonoEvents : MonoBehaviour
         MouseDownEvent.Invoke();
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
+    {
+        TriggerEvent.Invoke();
+    }
+
+    private void OnCollisionEnter(Collision collision)
     {
         CollisionEnterEvent.Invoke();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        UpdateEvent.Invoke();
     }
 }
