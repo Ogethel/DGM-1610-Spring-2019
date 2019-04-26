@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Debug = System.Diagnostics.Debug;
+using UnityEngine.SceneManagement;
 
 public class UpdateBar : MonoBehaviour
 {
@@ -25,7 +27,22 @@ public class UpdateBar : MonoBehaviour
             case "BadyDamage":
                 currentHealthValue -= damageValue;
                 healthBar.value = currentHealthValue;
+                if (currentHealthValue <= 0)
+                {
+                    playerDeath();
+                }
                 break;
         }
+    }
+
+    private void playerDeath()
+    {
+        print("Death");
+        Invoke("ResetLevel", 2);
+    }
+
+    private void ResetLevel()
+    {
+        SceneManager.LoadScene(0);
     }
 }

@@ -30,10 +30,9 @@ public class PlayerMovScript : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         SetCollectionText();
     }
-
     void FixedUpdate()
     {
-        //https://answers.unity.com/questions/527307/sticky-and-blocking-colliders-that-stop-my-charact.html
+        /*//https://answers.unity.com/questions/527307/sticky-and-blocking-colliders-that-stop-my-charact.html
         RaycastHit hit;
         if (Physics.Raycast(transform.position, Vector3.right, out hit, 0.1f)
             || Physics.Raycast(transform.position, Vector3.left, out hit, 0.1f)) {
@@ -41,7 +40,7 @@ public class PlayerMovScript : MonoBehaviour
             if (hit.transform.tag == "Stoppable"){
                 rb.velocity = new Vector2(0, rb.velocity.y);
             }
-        }
+        }*/
 
         isGrounded = Physics.CheckSphere(groundCheck.position, checkRadius, whatIsGround);
 
