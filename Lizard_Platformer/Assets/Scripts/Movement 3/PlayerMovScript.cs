@@ -7,6 +7,9 @@ using UnityEngine.UI;
 public class PlayerMovScript : MonoBehaviour
 {
     //https://www.youtube.com/watch?v=QGDeafTx5ug
+    
+    public Animator animator;
+    
     public float speed;
     public float jumpForce;
     private float moveInput;
@@ -32,7 +35,7 @@ public class PlayerMovScript : MonoBehaviour
     }
     void FixedUpdate()
     {
-        /*//https://answers.unity.com/questions/527307/sticky-and-blocking-colliders-that-stop-my-charact.html
+        //https://answers.unity.com/questions/527307/sticky-and-blocking-colliders-that-stop-my-charact.html
         RaycastHit hit;
         if (Physics.Raycast(transform.position, Vector3.right, out hit, 0.1f)
             || Physics.Raycast(transform.position, Vector3.left, out hit, 0.1f)) {
@@ -40,7 +43,9 @@ public class PlayerMovScript : MonoBehaviour
             if (hit.transform.tag == "Stoppable"){
                 rb.velocity = new Vector2(0, rb.velocity.y);
             }
-        }*/
+        }
+        
+        animator.SetFloat("Speed", Mathf.Abs(moveInput));
 
         isGrounded = Physics.CheckSphere(groundCheck.position, checkRadius, whatIsGround);
 
@@ -59,9 +64,14 @@ public class PlayerMovScript : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            animator.SetBool("IsJumping", true);
+        }
         if (isGrounded == true)
         {
             numExtraJumps = numExtraJumpsValue;
+            animator.SetBool("IsJumping", false);
         }
 
         if (Input.GetKeyDown(KeyCode.W) && numExtraJumps > 0)
