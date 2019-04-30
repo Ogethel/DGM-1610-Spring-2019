@@ -11,12 +11,16 @@ public class UpdateBar : MonoBehaviour
     public float startHealth = 1f;
     public float currentHealthValue;
     public float damageValue = .15f;
+    public float healthPack = .25f;
+    public GameObject Heart;
+   
 
     //Slider Information
     public Slider healthBar;
 
     private void Start()
     {
+       
         currentHealthValue = startHealth;
     }
 
@@ -32,13 +36,28 @@ public class UpdateBar : MonoBehaviour
                     playerDeath();
                 }
                 break;
+            case "Health":
+                currentHealthValue= currentHealthValue += healthPack;
+                healthBar.value = currentHealthValue;
+                if (currentHealthValue >= 1)
+                {
+                    currentHealthValue = 1;
+                }
+
+                Destroy(Heart);
+                break;
         }
+    }
+
+    private void HealthPickUp()
+    {
+        
     }
 
     private void playerDeath()
     {
         print("Death");
-        Invoke("ResetLevel", 2);
+        Invoke("ResetLevel", 1);
     }
 
     private void ResetLevel()

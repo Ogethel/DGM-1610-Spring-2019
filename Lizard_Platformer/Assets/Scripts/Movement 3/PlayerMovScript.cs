@@ -27,6 +27,10 @@ public class PlayerMovScript : MonoBehaviour
     public Text collectionText;
     private int count = 0;
 
+    public GameObject invincible;
+    public float invincTime = 7.0f;
+    private bool isInvinc = false;
+
     void Start()
     {
         numExtraJumps = numExtraJumpsValue;
@@ -101,11 +105,30 @@ public class PlayerMovScript : MonoBehaviour
             other.gameObject.SetActive(false);
             count = count + 1;
             SetCollectionText();
+            
+        if (invincible)
+        {
+            enterInvincible();
+        }
     }
 
     private void SetCollectionText()
     {
         collectionText.text = "Collections so far: " + count;
+    }
+
+    public void enterInvincible()
+    {
+        isInvinc = true;
+        if (invincTime >= 0.01)
+        {
+            GetComponent("UpdateBar").SendMessage("stopBadyDamage");
+        }
+        else
+        {
+            isInvinc = false;
+        }
+        
     }
 }
 
